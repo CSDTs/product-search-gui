@@ -9,7 +9,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "canvas, transparent plastic, leather, zipper",
 		"processes": "machine sewing, dye, ",
-		"industrial scale items": "canvas, zipper, transparent plastic"
+		"industrial_scale_items": "canvas, zipper, transparent plastic"
 	},
 	{
 		"name": "introduction to compost & manure",
@@ -21,7 +21,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "compost, manure",
 		"processes": "seminar, hands on",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Wraps",
@@ -33,7 +33,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "cotton",
 		"processes": "crochet, yarn",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Native Plants & Soil",
@@ -45,7 +45,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "soil, plants, native plants",
 		"processes": "generative, nature",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Gye Nyame Shirt with Matching Mask",
@@ -57,7 +57,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "cotton, cloth, dye",
 		"processes": "sewing, dye, weaving",
-		"industrial scale items": "cotton"
+		"industrial_scale_items": "cotton"
 	},
 	{
 		"name": "Book bags painted by Dabls (signed)",
@@ -69,7 +69,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "canvas, acrylic paint",
 		"processes": "machine sewing, ink",
-		"industrial scale items": "canvas"
+		"industrial_scale_items": "canvas"
 	},
 	{
 		"name": "Cowl neck backless crop top",
@@ -81,7 +81,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "satin",
 		"processes": "stitching, dyeing, weaving",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Walkthrough Vegan Leather pants",
@@ -93,7 +93,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "vegan leather",
 		"processes": "stitching, dyeing, weaving",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "toast knitted cutout dress",
@@ -105,7 +105,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "cotton",
 		"processes": "knitting, stitching, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Panama Maxi Dress",
@@ -117,7 +117,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "poly, maxi, cotton ",
 		"processes": "stitching, dyeing, weaving",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Cuba Ruffle dress",
@@ -129,7 +129,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "lace, cotton,",
 		"processes": "stitching, dyeing, weaving",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Maple long sleeve zipper bodysuit",
@@ -141,7 +141,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "poly, spandex ",
 		"processes": "stitching, dyeing, weaving",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Nutmeg crop top",
@@ -153,7 +153,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "vegan leather, zipper ",
 		"processes": "stitching, knitting, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Houston Blended Romper",
@@ -165,7 +165,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "vegan leather, zipper, poly, PU, spandex ",
 		"processes": "stitching, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Napa high waste blended skirt",
@@ -177,7 +177,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "poly, cotton",
 		"processes": "stitching, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "First class dress",
@@ -189,7 +189,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "cotton, poly ",
 		"processes": "stitching, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Hand Crafted Round beads",
@@ -201,7 +201,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "Quartz",
 		"processes": "carving",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Bone Pendants",
@@ -213,7 +213,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "bones, strings",
 		"processes": "carving, chiseling",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Disc Bone beads",
@@ -225,7 +225,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "bones, strings",
 		"processes": "carving, chiseling, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Horn Beads",
@@ -237,7 +237,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "beads",
 		"processes": "carving, chiseling",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Brass tear shaped beads",
@@ -249,7 +249,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "brass, strings",
 		"processes": "heating, moulding, carving, melting",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "zebrawood beads",
@@ -261,7 +261,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "wood, strings",
 		"processes": "carving, chiseling, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Iron beads rare",
@@ -273,7 +273,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "iron, strings",
 		"processes": "carving, chiseling, moudling",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Glass beads rare",
@@ -285,7 +285,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "glass",
 		"processes": "melting, heating, moudling, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Carnelian bead necklace",
@@ -297,7 +297,7 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "beads, necklace, strings",
 		"processes": "melting, heating, moudling, dyeing",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
 	},
 	{
 		"name": "Ceramic beads 1980s",
@@ -309,6 +309,30 @@
 		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
 		"materials": "ceramic, strings",
 		"processes": "carving, chiseling, moudling",
-		"industrial scale items": ""
+		"industrial_scale_items": ""
+	},
+	{
+		"name": "Peruvian Natural Curly",
+		"description": "",
+		"principles": "woman owned, black owned",
+		"the_artisan": "Xclusive Virgin Hair",
+		"url": "https://shop.xclusivehaircapitol.com/collections/luxury-premium-collection-retail/products/peruvian-natural-curly-75-135",
+		"image": "https://cdn.shopify.com/s/files/1/0272/5167/1115/products/16-Curly1-230x250peruviannaturalcurly_360x.png?v=1584110730",
+		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
+		"materials": "human hair",
+		"processes": "human grown",
+		"industrial_scale_items": ""
+	},
+	{
+		"name": "Unisex BE KIND Hoodie",
+		"description": "",
+		"principles": "woman owned, african american owned",
+		"the_artisan": "Akoma",
+		"url": "https://www.akomadetroit.com/be-kind/unisex-be-kind-hoodie-1",
+		"image": "https://scontent-ort2-2.xx.fbcdn.net/v/t39.30808-6/247895861_1742564112599367_7829787285942292305_n.jpg?stp=dst-jpg_s640x640&_nc_cat=100&ccb=1-7&_nc_sid=a26aad&_nc_ohc=cVaisoswFIoAX_Q2yoQ&_nc_ht=scontent-ort2-2.xx&oh=00_AT_AXR1ZgcNwQcIKJIv_JyS4d08IszmpExUzLnMiNdJdMg&oe=62D10A59",
+		"craftID": "1cea48d0-54c4-417b-af2d-e3cff92eb19a",
+		"materials": "cotton, polyester, yarn",
+		"processes": "stitching, air-jet spun, custom design on bulk item",
+		"industrial_scale_items": "cotton, polyester, yarn"
 	}
 ]

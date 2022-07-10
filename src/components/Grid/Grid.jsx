@@ -5,7 +5,7 @@ import { Box, SimpleGrid, Flex, Center, Text, Container, Spacer } from "@chakra-
 export default function ProductGrid({ products }) {
 	return (
 		<Container>
-			<SimpleGrid columns={[2, null, 3]} spacing="40px">
+			<SimpleGrid columns={[2, null, 3]} spacing="40px" maxH={"70vh"} overflowY={"scroll"} padding="2rem">
 				{products &&
 					products.map((product) => (
 						<Box>

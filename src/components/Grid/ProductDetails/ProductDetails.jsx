@@ -24,7 +24,7 @@ export default function ProductDetails(props) {
 	return (
 		<>
 			<Container maxW={"7xl"}>
-				<SimpleGrid columns={{ base: 1, lg: 2 }} spacing={{ base: 8, md: 10 }} py={{ base: 18, md: 24 }}>
+				<SimpleGrid columns={{ base: 1, lg: 2 }} spacing={{ base: 8, md: 10 }} py={{ base: 16, md: 20 }}>
 					<Flex>
 						<Image
 							rounded={"md"}
@@ -37,17 +37,20 @@ export default function ProductDetails(props) {
 							h={"max-content"}
 						/>
 					</Flex>
-					<Stack spacing={{ base: 6, md: 10 }}>
+					<Stack spacing={{ base: 4, md: 8 }}>
 						<Box as={"header"}>
 							<Heading lineHeight={1.1} fontWeight={600} fontSize={{ base: "2xl", sm: "4xl", lg: "5xl" }}>
 								{props.name}
 							</Heading>
-							<Text color={useColorModeValue("gray.900", "gray.400")} fontWeight={300} fontSize={"2xl"}>
+							{/* <Text color={useColorModeValue("gray.900", "gray.400")} fontWeight={300} fontSize={"2xl"}>
 								$350.00 USD
-							</Text>
-							<Text color={"gray.400"} fontWeight={300} fontSize={"xl"}>
+							</Text> */}
+							<Text color={useColorModeValue("gray.900", "gray.400")} fontWeight={300} fontSize={"2xl"}>
 								{props.the_artisan}
 							</Text>
+							{/* <Text color={"gray.400"} fontWeight={300} fontSize={"xl"}>
+								{props.the_artisan}
+							</Text> */}
 						</Box>
 
 						<Stack
@@ -56,19 +59,15 @@ export default function ProductDetails(props) {
 							divider={<StackDivider borderColor={useColorModeValue("gray.200", "gray.600")} />}>
 							<VStack spacing={{ base: 4, sm: 6 }}>
 								<Text color={useColorModeValue("gray.500", "gray.400")} fontSize={"2xl"} fontWeight={"300"}>
-									Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-									labore
+									{props.description ||
+										"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "}
 								</Text>
-								<Text fontSize={"lg"}>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquid amet at delectus doloribus
-									dolorum expedita hic, ipsum maxime modi nam officiis porro, quae, quisquam quos reprehenderit velit?
-									Natus, totam.
-								</Text>
+								<Text fontSize={"lg"}>{props.description}</Text>
 							</VStack>
 							<Box>
 								<Text
 									fontSize={{ base: "16px", lg: "18px" }}
-									color={useColorModeValue("yellow.500", "yellow.300")}
+									color={"#319795"}
 									fontWeight={"500"}
 									textTransform={"uppercase"}
 									mb={"4"}>
@@ -91,7 +90,7 @@ export default function ProductDetails(props) {
 							<Box>
 								<Text
 									fontSize={{ base: "16px", lg: "18px" }}
-									color={useColorModeValue("yellow.500", "yellow.300")}
+									color={"#319795"}
 									fontWeight={"500"}
 									textTransform={"uppercase"}
 									mb={"4"}>
@@ -126,6 +125,7 @@ export default function ProductDetails(props) {
 							w={"full"}
 							mt={8}
 							size={"lg"}
+							link={"google.com"}
 							py={"7"}
 							bg={useColorModeValue("gray.900", "gray.50")}
 							color={useColorModeValue("white", "gray.900")}
@@ -133,14 +133,10 @@ export default function ProductDetails(props) {
 							_hover={{
 								transform: "translateY(2px)",
 								boxShadow: "lg",
-							}}>
+							}}
+							onClick={() => window.open(props.url, "_blank")}>
 							Head to Store
 						</Button>
-
-						<Stack direction="row" alignItems="center" justifyContent={"center"}>
-							<FaStore />
-							<Text>{props.url}</Text>
-						</Stack>
 					</Stack>
 				</SimpleGrid>
 			</Container>

@@ -17,6 +17,12 @@ import {
 	ModalCloseButton,
 	useDisclosure,
 	Button,
+	SimpleGrid,
+	Badge,
+	HStack,
+	Tag,
+	TagLabel,
+	TagRightIcon,
 } from "@chakra-ui/react";
 
 import ProductDetails from "../ProductDetails/ProductDetails";
@@ -35,9 +41,9 @@ export default function Card(props) {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	return (
 		<>
-			<Modal isOpen={isOpen} onClose={onClose} size={"xxl"}>
+			<Modal isOpen={isOpen} onClose={onClose} size={"xl"}>
 				<ModalOverlay />
-				<ModalContent>
+				<ModalContent maxW="70rem">
 					<ModalCloseButton />
 					{/* <ModalHeader>Modal Title</ModalHeader>
 					<ModalCloseButton />
@@ -88,23 +94,31 @@ export default function Card(props) {
 					</Box>
 					<Stack pt={10} align={"center"}>
 						<Text color={"gray.500"} fontSize={"sm"} textTransform={"uppercase"}>
-							{props.principles.replaceAll(", ", " | ").replaceAll(",", "")}
+							{props.the_artisan}
 						</Text>
 
 						<Heading fontSize={"2xl"} fontFamily={"body"} fontWeight={500} color={"black"}>
 							{props.name}
 						</Heading>
-						{/* <Stack direction={"row"} align={"center"}>
-						<Text fontWeight={800} fontSize={"xl"} color={"black"}>
-							$57
-						</Text>
-						<Text textDecoration={"line-through"} color={"gray.600"}>
-							$199
-						</Text>
-					</Stack> */}
-						<Heading fontSize={"xl"} fontFamily={"body"} fontWeight={300} color={"black"}>
-							{capitalize(props.the_artisan)}
-						</Heading>
+
+						<Stack align={"center"} justify={"center"} direction={"row"} mt={6} maxWidth={"100%"} display={"flow-root"}>
+							{props.principles.split(",").map((principle) => (
+								<>
+									{principle != "" && principle.length > 1 && (
+										<Badge
+											px={2}
+											py={1}
+											bg={useColorModeValue("gray.50", "gray.800")}
+											fontWeight={"400"}
+											fontSize={"0.65rem"}>
+											{principle}
+										</Badge>
+									)}
+								</>
+							))}
+						</Stack>
+
+						<Heading fontSize={"xl"} fontFamily={"body"} fontWeight={300} color={"black"}></Heading>
 					</Stack>
 				</Box>
 			</Center>
