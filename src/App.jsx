@@ -4,8 +4,8 @@ import { Container, Box, Text, Image, Link, Stack, Checkbox, Divider, Heading } 
 
 import ProductGrid from "./components/Grid/Grid";
 import Filter from "./components/Filter/Filter";
-import CategoryDrawer from "./components/CategoryDrawer/CategoryDrawer";
-import CategoryFilters from "./components/CategoryFilters/CategoryFilters";
+// import CategoryDrawer from "./components/CategoryDrawer/CategoryDrawer";
+// import CategoryFilters from "./components/CategoryFilters/CategoryFilters";
 
 import "./App.css";
 
